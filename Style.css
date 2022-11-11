@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background: radial-gradient(rgb(226, 128, 15),#e42727);
+    height: 100vh;
+    overflow-x: hidden;
+}
+.login,.form-container input,.icon,.btn{
+    margin: 10px;
+}
+hr{
+    border-top: 1px solid #e42727;
+    margin: 20px 30px;
+}
+.main-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px 0 #000;
+    border-radius: 5px;
+}
+.login{
+    text-align: center;
+    font-size: 2rem;
+}
+.title{
+    font-size: 2rem;
+    color: #e42727;
+}
+.form-container form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+}
+.form-container input{
+    border-radius: none;
+    outline: none;
+    border: 1px solid #e42727;
+    padding: 5px;
+    width: 90%;
+}
+.text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text span{
+    margin: 2px;
+}
+.text span a{
+    text-decoration: none;
+    color: #e42727;
+    font-weight: 700;
+}
+.profile{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(32, 32, 136);
+}
+.social-media{
+    text-align: center;
+    margin: 30px;
+}
+.social{
+    font-weight: 700;
+    color: #e42727;
+    padding:0 10px;
+}
+.icon{
+    font-size: 40px;
+    cursor: pointer;
+}
+.icon:hover{
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+.facebook{
+    color: blue;
+}
+.google{
+    color: #e42727;
+}
+.insta{
+    color: #6b3aa3;
+}
+.btn{
+    color: #fff;
+    border: none;
+    width: 90%;
+    cursor: pointer;
+    background: #e42727;
+    padding: 10px;
+}
+.btn:hover{
+    background: #000;
+    color: #fff;
+    transition: 0.5s all;
+}
+.btn:active{
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
